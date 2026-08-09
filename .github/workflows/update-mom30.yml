@@ -64,5 +64,5 @@ jobs:
             echo "No MOM30 data changes to commit."
             exit 0
           fi
-          git commit -m "Update NDX MOM30 ranking [skip ci]"
+          git commit -m "Update NDX MOM30 ranking"
           git push
