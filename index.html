@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="NDX / MOM30 长期研究公开展示站点" />
+  <title>NDX / MOM30 Research</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header class="hero">
+      <p class="eyebrow">PUBLIC RESEARCH DASHBOARD</p>
+      <h1>NDX / MOM30</h1>
+      <p class="subtitle">长期研究结果公开展示。只展示研究管线真实输出，不填充模拟成绩。</p>
+    </header>
+
+    <section class="status-card" aria-live="polite">
+      <div>
+        <span class="label">数据状态</span>
+        <strong id="data-status">正在读取…</strong>
+      </div>
+      <div>
+        <span class="label">数据日期</span>
+        <strong id="as-of">—</strong>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="metric-card">
+        <span class="label">NDX</span>
+        <strong id="ndx-value">—</strong>
+        <small id="ndx-note">等待真实研究输出</small>
+      </article>
+      <article class="metric-card">
+        <span class="label">MOM30</span>
+        <strong id="mom30-value">—</strong>
+        <small id="mom30-note">等待真实研究输出</small>
+      </article>
+      <article class="metric-card">
+        <span class="label">研究版本</span>
+        <strong id="research-version">—</strong>
+        <small>版本由研究管线写入</small>
+      </article>
+    </section>
+
+    <section class="panel">
+      <h2>研究原则</h2>
+      <p>本页面是展示层，不替代研究层。未来函数检查、过度拟合筛查、压力测试以及方法修改，应先在研究流程中完成，再把经过验证的结果发布到这里。</p>
+    </section>
+
+    <section class="panel">
+      <h2>数据接口</h2>
+      <p><code>data/ndx_mom30_latest.json</code> 提供最新摘要；<code>data/ndx_mom30_history.csv</code> 预留历史序列。当前没有真实输出时，页面会明确显示等待状态。</p>
+    </section>
+
+    <footer>
+      <p>仅用于研究与教育展示，不构成投资建议或收益承诺。</p>
+    </footer>
+  </main>
+  <script src="assets/app.js" defer></script>
+</body>
+</html>
