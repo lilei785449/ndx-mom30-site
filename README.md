@@ -1,52 +1,66 @@
-# NDX / MOM30 Research Site
+# NDX-MOM30
 
-公开展示 NDX 与 MOM30 长期研究结果的独立仓库。
+公开、可复现的 Nasdaq-100 当前横截面动量榜单。
 
-## 目标
+## 冻结规则
 
-- 将 NDX / MOM30 研究与其他研究项目彻底分离。
-- 用 GitHub Pages 提供公开、稳定、可访问的研究页面。
-- 页面只展示由研究管线真实生成的数据，不手工伪造或补齐研究结果。
-- 为后续自动更新最新结果、历史序列与统计摘要预留固定数据接口。
+1. 使用 Nasdaq 官方 NDX 成分快照作为当前股票池。
+2. 找到**当前这组成分股集合首次生效的交易日**。
+3. 所有当前成分股统一使用该交易日的开盘价作为 0% 起点。
+4. 每次更新计算：`最新收盘价 / 本轮统一起点开盘价 - 1`。
+5. 按累计涨幅从高到低排序，输出前 30 名。
+6. 只要 Nasdaq 官方成分集合变化，所有股票重新寻找新集合首次生效交易日并统一归零。
+7. 不加入基本面，不调窗口，不根据榜单结果修改规则。
 
-## 当前状态
+这是一套**当前实盘横截面筛选**，不是拿今天的 Nasdaq-100 成分股回填历史的回测。
 
-站点骨架已建立；研究数据接口已预留，真实 NDX / MOM30 输出尚未接入本仓库。
+## 自动更新
 
-## 目录
+`.github/workflows/update-mom30.yml` 在美股工作日收盘后自动运行，也支持手动运行。
+
+流程：
 
 ```text
-.
-├── index.html
-├── README.md
-├── assets/
-│   ├── app.js
-│   └── style.css
-├── data/
-│   ├── ndx_mom30_latest.json
-│   └── ndx_mom30_history.csv
-└── .github/
-    └── workflows/
-        └── pages.yml
+Nasdaq 官方 NDX 成分快照
+        ↓
+识别当前成分集合及本轮统一起点
+        ↓
+yfinance adjusted OHLC
+        ↓
+计算本轮累计涨幅
+        ↓
+Top30 + 全部排名 + 每日摘要
+        ↓
+提交 data/ 结果
+        ↓
+GitHub Pages 自动重新部署
 ```
 
-## 数据接口
+## 公开数据
 
-### `data/ndx_mom30_latest.json`
+- `data/ndx_mom30_latest.json`：网页读取的最新摘要与 Top30。
+- `data/ndx_mom30_top30.csv`：当前 Top30 明细。
+- `data/ndx_mom30_all.csv`：全部当前 NDX 成分排名。
+- `data/ndx_mom30_history.csv`：每日摘要历史。
+- `data/ndx_mom30_state.json`：当前成分集合与本轮统一起点，用于下一次更新续跑。
 
-用于页面顶部的最新状态与摘要。未接入真实研究结果前，字段保持 `null`，页面明确显示“等待研究管线输出”。
+## 代码
 
-### `data/ndx_mom30_history.csv`
+- `scripts/update_mom30.py`：完整、可复现的 NDX-MOM30 v1.0 更新程序。
+- `.github/workflows/update-mom30.yml`：每日排名更新。
+- `.github/workflows/pages.yml`：GitHub Pages 部署。
 
-用于后续保存历史时间序列。当前只保留表头，不填充模拟数据。
+## 网站
 
-## 发布
+GitHub Pages 发布地址：
 
-仓库使用 GitHub Pages + GitHub Actions 发布静态网站。Pages 发布源需要在仓库 Settings → Pages 中选择 **GitHub Actions**。
+`https://lilei785449.github.io/ndx-mom30-site/`
 
-## 研究原则
+## 数据边界
 
-本网站是研究展示层，不替代原始研究与验证流程。所有公开数值应来自可复现的研究管线；任何压力测试、未来函数检查、过度拟合检查或方法变更，都应先在研究层完成，再发布到这里。
+- 股票池：Nasdaq 官方 NDX 成分快照。
+- 价格：yfinance，`auto_adjust=True`，用于当前榜单计算。
+- 页面不会手工补造榜单或收益数据；更新失败时保留最近一次已成功发布的数据。
 
 ## 免责声明
 
