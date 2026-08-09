@@ -3,16 +3,17 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="NDX / MOM30 长期研究公开展示站点" />
-  <title>NDX / MOM30 Research</title>
+  <meta name="theme-color" content="#0b0d10" />
+  <meta name="description" content="NDX-MOM30 当前 Nasdaq-100 横截面动量排名" />
+  <title>NDX-MOM30</title>
   <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
   <main class="wrap">
     <header class="hero">
-      <p class="eyebrow">PUBLIC RESEARCH DASHBOARD</p>
-      <h1>NDX / MOM30</h1>
-      <p class="subtitle">长期研究结果公开展示。只展示研究管线真实输出，不填充模拟成绩。</p>
+      <p class="eyebrow">NASDAQ-100 · CURRENT MOMENTUM</p>
+      <h1>NDX-MOM30</h1>
+      <p class="subtitle">当前 Nasdaq-100 成分股在同一轮成分集合生效日统一归零，按累计涨幅从高到低排名，取前30。点击股票直接打开 TradingView 4小时图。</p>
     </header>
 
     <section class="status-card" aria-live="polite">
@@ -21,41 +22,66 @@
         <strong id="data-status">正在读取…</strong>
       </div>
       <div>
-        <span class="label">数据日期</span>
+        <span class="label">最新价格日期</span>
         <strong id="as-of">—</strong>
+      </div>
+      <div>
+        <span class="label">本轮统一起点</span>
+        <strong id="baseline-date">—</strong>
       </div>
     </section>
 
     <section class="grid">
       <article class="metric-card">
-        <span class="label">NDX</span>
+        <span class="label">NDX 当前成分</span>
         <strong id="ndx-value">—</strong>
         <small id="ndx-note">等待真实研究输出</small>
       </article>
       <article class="metric-card">
-        <span class="label">MOM30</span>
+        <span class="label">筛选数量</span>
         <strong id="mom30-value">—</strong>
         <small id="mom30-note">等待真实研究输出</small>
       </article>
       <article class="metric-card">
+        <span class="label">当前第1名</span>
+        <strong id="leader">—</strong>
+        <small>本轮涨幅 <span id="leader-return">—</span></small>
+      </article>
+      <article class="metric-card">
         <span class="label">研究版本</span>
         <strong id="research-version">—</strong>
-        <small>版本由研究管线写入</small>
+        <small>规则版本固定写入数据</small>
       </article>
     </section>
 
-    <section class="panel">
-      <h2>研究原则</h2>
-      <p>本页面是展示层，不替代研究层。未来函数检查、过度拟合筛查、压力测试以及方法修改，应先在研究流程中完成，再把经过验证的结果发布到这里。</p>
+    <section class="panel ranking-panel">
+      <div class="panel-head">
+        <div>
+          <p class="eyebrow">LIVE RANKING</p>
+          <h2>MOM30 当前榜单</h2>
+        </div>
+        <a class="download" href="data/ndx_mom30_top30.csv">下载 CSV</a>
+      </div>
+      <div class="rank-header" aria-hidden="true">
+        <span>排名</span><span>代码</span><span>本轮涨幅</span><span>图表</span>
+      </div>
+      <div id="mom30-list" class="rank-list">
+        <div class="empty">正在读取真实排名…</div>
+      </div>
     </section>
 
     <section class="panel">
-      <h2>数据接口</h2>
-      <p><code>data/ndx_mom30_latest.json</code> 提供最新摘要；<code>data/ndx_mom30_history.csv</code> 预留历史序列。当前没有真实输出时，页面会明确显示等待状态。</p>
+      <h2>冻结规则</h2>
+      <p>股票池只使用 Nasdaq 官方 NDX 当前成分快照。找到当前这组成分集合首次生效的交易日，所有股票统一用该日开盘价作为 0% 起点；之后每天以最新收盘价计算累计涨幅并排序。只要官方成分集合变化，全体重新归零。规则不根据排名结果调整，也不拿今天的成分股倒推历史。</p>
+    </section>
+
+    <section class="panel links-panel">
+      <h2>公开数据</h2>
+      <p><a href="data/ndx_mom30_latest.json">最新 JSON</a> · <a href="data/ndx_mom30_top30.csv">Top30 CSV</a> · <a href="data/ndx_mom30_all.csv">全部排名 CSV</a> · <a href="data/ndx_mom30_history.csv">每日摘要历史</a></p>
     </section>
 
     <footer>
-      <p>仅用于研究与教育展示，不构成投资建议或收益承诺。</p>
+      <p>当前实盘横截面筛选工具，不是历史回测收益证明；仅用于研究与教育展示，不构成投资建议。</p>
     </footer>
   </main>
   <script src="assets/app.js" defer></script>
