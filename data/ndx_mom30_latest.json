@@ -1,0 +1,13 @@
+{
+  "status": "awaiting_pipeline_output",
+  "as_of": null,
+  "research_version": null,
+  "ndx": {
+    "display_value": null,
+    "note": "等待真实研究输出"
+  },
+  "mom30": {
+    "display_value": null,
+    "note": "等待真实研究输出"
+  }
+}
