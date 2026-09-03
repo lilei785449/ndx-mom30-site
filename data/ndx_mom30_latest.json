@@ -4,9 +4,9 @@
   "research_version": "NDX-MOM30-v1.0",
   "ndx": {
     "display_value": "102只",
-    "note": "Nasdaq 官方 NDX 成分快照：2026-09-01",
+    "note": "Nasdaq 官方 NDX 成分快照：2026-09-02",
     "constituent_count": 102,
-    "snapshot_date": "2026-09-01",
+    "snapshot_date": "2026-09-02",
     "baseline_date": "2026-08-05"
   },
   "mom30": {
@@ -133,8 +133,8 @@
     {
       "rank": 15,
       "ticker": "CPRT",
-      "return_pct": 9.273,
-      "last_close": 32.465,
+      "return_pct": 9.2898,
+      "last_close": 32.47,
       "last_date": "2026-09-01",
       "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3ACPRT&interval=240"
     },
