@@ -1,7 +1,7 @@
 {
   "version": "NDX-MOM30-v1.0",
-  "baseline_date": "2026-08-05",
-  "latest_snapshot_date": "2026-09-11",
+  "baseline_date": "2026-09-14",
+  "latest_snapshot_date": "2026-09-14",
   "constituents": [
     "AAPL",
     "ABNB",
@@ -53,7 +53,6 @@
     "INTU",
     "ISRG",
     "KDP",
-    "KHC",
     "KLAC",
     "LIN",
     "LITE",
