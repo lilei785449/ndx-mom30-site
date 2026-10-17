@@ -4,9 +4,9 @@
   "research_version": "NDX-MOM30-v1.0",
   "ndx": {
     "display_value": "101只",
-    "note": "Nasdaq 官方 NDX 成分快照：2026-10-15",
+    "note": "Nasdaq 官方 NDX 成分快照：2026-10-16",
     "constituent_count": 101,
-    "snapshot_date": "2026-10-15",
+    "snapshot_date": "2026-10-16",
     "baseline_date": "2026-10-09"
   },
   "mom30": {
