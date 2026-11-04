@@ -1,7 +1,7 @@
 {
   "version": "NDX-MOM30-v1.0",
   "baseline_date": "2026-10-09",
-  "latest_snapshot_date": "2026-11-02",
+  "latest_snapshot_date": "2026-11-03",
   "constituents": [
     "AAPL",
     "ABNB",
