@@ -1,12 +1,12 @@
 {
   "status": "ready",
-  "as_of": "2026-11-06",
+  "as_of": "2026-11-09",
   "research_version": "NDX-MOM30-v1.0",
   "ndx": {
     "display_value": "101只",
-    "note": "Nasdaq 官方 NDX 成分快照：2026-11-06",
+    "note": "Nasdaq 官方 NDX 成分快照：2026-11-09",
     "constituent_count": 101,
-    "snapshot_date": "2026-11-06",
+    "snapshot_date": "2026-11-09",
     "baseline_date": "2026-10-09"
   },
   "mom30": {
@@ -14,249 +14,249 @@
     "note": "本轮统一从 2026-10-09 开盘归零",
     "top_n": 30,
     "leader": "APP",
-    "leader_return_pct": 38.9621,
-    "latest_price_date": "2026-11-06"
+    "leader_return_pct": 45.6328,
+    "latest_price_date": "2026-11-09"
   },
   "top30": [
     {
       "rank": 1,
       "ticker": "APP",
-      "return_pct": 38.9621,
-      "last_close": 391.22,
-      "last_date": "2026-11-06",
+      "return_pct": 45.6328,
+      "last_close": 410.0,
+      "last_date": "2026-11-09",
       "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AAPP&interval=240"
     },
     {
       "rank": 2,
       "ticker": "IDXX",
-      "return_pct": 31.6098,
-      "last_close": 676.04,
-      "last_date": "2026-11-06",
+      "return_pct": 37.5689,
+      "last_close": 706.65,
+      "last_date": "2026-11-09",
       "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AIDXX&interval=240"
     },
     {
       "rank": 3,
-      "ticker": "ROP",
-      "return_pct": 30.4967,
-      "last_close": 476.6,
-      "last_date": "2026-11-06",
-      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AROP&interval=240"
+      "ticker": "MRNA",
+      "return_pct": 35.1759,
+      "last_close": 269.0,
+      "last_date": "2026-11-09",
+      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AMRNA&interval=240"
     },
     {
       "rank": 4,
       "ticker": "GEHC",
-      "return_pct": 28.1103,
-      "last_close": 82.38,
-      "last_date": "2026-11-06",
+      "return_pct": 30.6762,
+      "last_close": 84.03,
+      "last_date": "2026-11-09",
       "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AGEHC&interval=240"
     },
     {
       "rank": 5,
-      "ticker": "MRNA",
-      "return_pct": 27.7337,
-      "last_close": 254.19,
-      "last_date": "2026-11-06",
-      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AMRNA&interval=240"
+      "ticker": "ROP",
+      "return_pct": 29.1386,
+      "last_close": 471.64,
+      "last_date": "2026-11-09",
+      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AROP&interval=240"
     },
     {
       "rank": 6,
       "ticker": "REGN",
-      "return_pct": 22.6736,
-      "last_close": 904.35,
-      "last_date": "2026-11-06",
+      "return_pct": 24.7911,
+      "last_close": 919.96,
+      "last_date": "2026-11-09",
       "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AREGN&interval=240"
     },
     {
       "rank": 7,
       "ticker": "FER",
-      "return_pct": 19.0071,
-      "last_close": 58.71,
-      "last_date": "2026-11-06",
+      "return_pct": 24.4395,
+      "last_close": 61.39,
+      "last_date": "2026-11-09",
       "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AFER&interval=240"
     },
     {
       "rank": 8,
       "ticker": "KDP",
-      "return_pct": 17.5168,
-      "last_close": 36.63,
-      "last_date": "2026-11-06",
+      "return_pct": 18.5114,
+      "last_close": 36.94,
+      "last_date": "2026-11-09",
       "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AKDP&interval=240"
     },
     {
       "rank": 9,
-      "ticker": "CMCSA",
-      "return_pct": 16.7544,
-      "last_close": 24.39,
-      "last_date": "2026-11-06",
-      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3ACMCSA&interval=240"
-    },
-    {
-      "rank": 10,
-      "ticker": "ABNB",
-      "return_pct": 16.6012,
-      "last_close": 189.99,
-      "last_date": "2026-11-06",
-      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AABNB&interval=240"
-    },
-    {
-      "rank": 11,
       "ticker": "CPRT",
-      "return_pct": 16.5633,
-      "last_close": 31.95,
-      "last_date": "2026-11-06",
+      "return_pct": 18.3875,
+      "last_close": 32.45,
+      "last_date": "2026-11-09",
       "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3ACPRT&interval=240"
     },
     {
-      "rank": 12,
-      "ticker": "MAR",
-      "return_pct": 15.3401,
-      "last_close": 416.47,
-      "last_date": "2026-11-06",
-      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AMAR&interval=240"
-    },
-    {
-      "rank": 13,
-      "ticker": "WMT",
-      "return_pct": 14.1091,
-      "last_close": 125.52,
-      "last_date": "2026-11-06",
-      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AWMT&interval=240"
-    },
-    {
-      "rank": 14,
-      "ticker": "AMGN",
-      "return_pct": 13.684,
-      "last_close": 460.42,
-      "last_date": "2026-11-06",
-      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AAMGN&interval=240"
-    },
-    {
-      "rank": 15,
-      "ticker": "GILD",
-      "return_pct": 13.3533,
-      "last_close": 166.89,
-      "last_date": "2026-11-06",
-      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AGILD&interval=240"
-    },
-    {
-      "rank": 16,
+      "rank": 10,
       "ticker": "SBUX",
-      "return_pct": 13.3441,
-      "last_close": 105.41,
-      "last_date": "2026-11-06",
+      "return_pct": 17.6774,
+      "last_close": 109.44,
+      "last_date": "2026-11-09",
       "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3ASBUX&interval=240"
     },
     {
-      "rank": 17,
-      "ticker": "PAYX",
-      "return_pct": 12.793,
-      "last_close": 117.06,
-      "last_date": "2026-11-06",
-      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3APAYX&interval=240"
+      "rank": 11,
+      "ticker": "CMCSA",
+      "return_pct": 17.3289,
+      "last_close": 24.51,
+      "last_date": "2026-11-09",
+      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3ACMCSA&interval=240"
     },
     {
-      "rank": 18,
+      "rank": 12,
+      "ticker": "ABNB",
+      "return_pct": 16.7853,
+      "last_close": 190.29,
+      "last_date": "2026-11-09",
+      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AABNB&interval=240"
+    },
+    {
+      "rank": 13,
+      "ticker": "MAR",
+      "return_pct": 15.5312,
+      "last_close": 417.16,
+      "last_date": "2026-11-09",
+      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AMAR&interval=240"
+    },
+    {
+      "rank": 14,
+      "ticker": "GILD",
+      "return_pct": 15.0037,
+      "last_close": 169.32,
+      "last_date": "2026-11-09",
+      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AGILD&interval=240"
+    },
+    {
+      "rank": 15,
+      "ticker": "AMGN",
+      "return_pct": 14.8716,
+      "last_close": 465.23,
+      "last_date": "2026-11-09",
+      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AAMGN&interval=240"
+    },
+    {
+      "rank": 16,
+      "ticker": "WMT",
+      "return_pct": 14.2364,
+      "last_close": 125.66,
+      "last_date": "2026-11-09",
+      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AWMT&interval=240"
+    },
+    {
+      "rank": 17,
       "ticker": "CCEP",
-      "return_pct": 12.4637,
-      "last_close": 116.13,
-      "last_date": "2026-11-06",
+      "return_pct": 13.7807,
+      "last_close": 117.49,
+      "last_date": "2026-11-09",
       "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3ACCEP&interval=240"
     },
     {
-      "rank": 19,
-      "ticker": "INTU",
-      "return_pct": 11.9489,
-      "last_close": 341.5,
-      "last_date": "2026-11-06",
-      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AINTU&interval=240"
-    },
-    {
-      "rank": 20,
-      "ticker": "ADP",
-      "return_pct": 11.896,
-      "last_close": 303.35,
-      "last_date": "2026-11-06",
-      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AADP&interval=240"
-    },
-    {
-      "rank": 21,
+      "rank": 18,
       "ticker": "COST",
-      "return_pct": 11.6526,
-      "last_close": 1053.5601,
-      "last_date": "2026-11-06",
+      "return_pct": 12.99,
+      "last_close": 1066.1801,
+      "last_date": "2026-11-09",
       "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3ACOST&interval=240"
     },
     {
-      "rank": 22,
+      "rank": 19,
       "ticker": "PEP",
-      "return_pct": 11.5549,
-      "last_close": 141.34,
-      "last_date": "2026-11-06",
+      "return_pct": 11.9811,
+      "last_close": 141.88,
+      "last_date": "2026-11-09",
       "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3APEP&interval=240"
     },
     {
-      "rank": 23,
+      "rank": 20,
       "ticker": "ADSK",
-      "return_pct": 11.1338,
-      "last_close": 261.72,
-      "last_date": "2026-11-06",
+      "return_pct": 11.8259,
+      "last_close": 263.35,
+      "last_date": "2026-11-09",
       "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AADSK&interval=240"
     },
     {
-      "rank": 24,
-      "ticker": "TRI",
-      "return_pct": 11.0158,
-      "last_close": 112.57,
-      "last_date": "2026-11-06",
-      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3ATRI&interval=240"
+      "rank": 21,
+      "ticker": "ADP",
+      "return_pct": 11.4201,
+      "last_close": 302.06,
+      "last_date": "2026-11-09",
+      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AADP&interval=240"
     },
     {
-      "rank": 25,
+      "rank": 22,
       "ticker": "CTAS",
-      "return_pct": 10.7757,
-      "last_close": 222.36,
-      "last_date": "2026-11-06",
+      "return_pct": 11.1742,
+      "last_close": 223.16,
+      "last_date": "2026-11-09",
       "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3ACTAS&interval=240"
     },
     {
+      "rank": 23,
+      "ticker": "INTU",
+      "return_pct": 10.8769,
+      "last_close": 338.23,
+      "last_date": "2026-11-09",
+      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AINTU&interval=240"
+    },
+    {
+      "rank": 24,
+      "ticker": "HON",
+      "return_pct": 10.8422,
+      "last_close": 229.0,
+      "last_date": "2026-11-09",
+      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AHON&interval=240"
+    },
+    {
+      "rank": 25,
+      "ticker": "ISRG",
+      "return_pct": 10.6078,
+      "last_close": 460.56,
+      "last_date": "2026-11-09",
+      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AISRG&interval=240"
+    },
+    {
       "rank": 26,
-      "ticker": "EXC",
-      "return_pct": 9.5581,
-      "last_close": 45.62,
-      "last_date": "2026-11-06",
-      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AEXC&interval=240"
+      "ticker": "PAYX",
+      "return_pct": 10.5768,
+      "last_close": 114.76,
+      "last_date": "2026-11-09",
+      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3APAYX&interval=240"
     },
     {
       "rank": 27,
-      "ticker": "MDLZ",
-      "return_pct": 9.4859,
-      "last_close": 66.02,
-      "last_date": "2026-11-06",
-      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AMDLZ&interval=240"
+      "ticker": "NXPI",
+      "return_pct": 10.2692,
+      "last_close": 256.42,
+      "last_date": "2026-11-09",
+      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3ANXPI&interval=240"
     },
     {
       "rank": 28,
-      "ticker": "VRTX",
-      "return_pct": 8.9582,
-      "last_close": 547.09,
-      "last_date": "2026-11-06",
-      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AVRTX&interval=240"
+      "ticker": "MDLZ",
+      "return_pct": 10.1824,
+      "last_close": 66.44,
+      "last_date": "2026-11-09",
+      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AMDLZ&interval=240"
     },
     {
       "rank": 29,
-      "ticker": "XEL",
-      "return_pct": 8.8834,
-      "last_close": 79.67,
-      "last_date": "2026-11-06",
-      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AXEL&interval=240"
+      "ticker": "VRTX",
+      "return_pct": 9.711,
+      "last_close": 550.87,
+      "last_date": "2026-11-09",
+      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AVRTX&interval=240"
     },
     {
       "rank": 30,
-      "ticker": "ISRG",
-      "return_pct": 8.7442,
-      "last_close": 452.8,
-      "last_date": "2026-11-06",
-      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AISRG&interval=240"
+      "ticker": "EXC",
+      "return_pct": 9.6302,
+      "last_close": 45.65,
+      "last_date": "2026-11-09",
+      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AEXC&interval=240"
     }
   ],
   "method": {
