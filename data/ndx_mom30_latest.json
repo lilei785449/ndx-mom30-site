@@ -220,14 +220,6 @@
     },
     {
       "rank": 26,
-      "ticker": "XEL",
-      "return_pct": 10.8514,
-      "last_close": 81.11,
-      "last_date": "2026-11-25",
-      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AXEL&interval=240"
-    },
-    {
-      "rank": 27,
       "ticker": "PDD",
       "return_pct": 10.2396,
       "last_close": 87.42,
@@ -235,7 +227,7 @@
       "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3APDD&interval=240"
     },
     {
-      "rank": 28,
+      "rank": 27,
       "ticker": "LIN",
       "return_pct": 9.5105,
       "last_close": 524.61,
@@ -243,7 +235,7 @@
       "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3ALIN&interval=240"
     },
     {
-      "rank": 29,
+      "rank": 28,
       "ticker": "HON",
       "return_pct": 9.2969,
       "last_close": 225.1,
@@ -251,12 +243,20 @@
       "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AHON&interval=240"
     },
     {
-      "rank": 30,
+      "rank": 29,
       "ticker": "CSX",
       "return_pct": 8.5278,
       "last_close": 51.16,
       "last_date": "2026-11-25",
       "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3ACSX&interval=240"
+    },
+    {
+      "rank": 30,
+      "ticker": "TRI",
+      "return_pct": 8.5226,
+      "last_close": 109.35,
+      "last_date": "2026-11-25",
+      "tradingview_4h_url": "https://www.tradingview.com/chart/?symbol=NASDAQ%3ATRI&interval=240"
     }
   ],
   "method": {
